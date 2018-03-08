@@ -1,0 +1,185 @@
+#warpheader {
+	width:auto;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border:2px dotted #000000;
+    padding: 10px;
+	background-color:#FFFFFF;
+}
+
+body {
+	background-image:url(images/dark_embroidery.png);
+	
+}
+/*wrapContents is going to going to contain everything that is going to be considered as the main focus of the page*/
+#wrapContents {
+	width: auto;
+	height:auto;
+	border: #0FF;
+	text-align:center;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: auto;
+}
+
+.subContents {
+	text-align:left;
+}
+/*########################*/
+/*        Navigation      */
+/*########################*/
+/*Make the navigation bar as either vertical or horizontal*/
+/*the wrap menu should include all the nececities to design the menu */
+#wrapMenu {
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	height: auto;
+	width: auto;padding: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	display: block;
+	text-align:center;
+	background-color:#FFB600;
+}
+
+.navMenu li {
+	display:inline;
+	list-style-type: none;
+}
+
+ul li a:link {
+    color: white;
+    border: 1px solid black;
+    padding: 10px 40px; 
+    background: #162EAE;
+    width: 150px;
+    border-radius: 45px;
+    text-decoration: none;
+
+}
+
+ul li a:visited {
+    color: white;
+    border: 1px solid black;
+    padding: 10px 40px; 
+    background: #ffb600;
+    width: 150px;
+    border-radius: 25px;
+    
+}
+
+ul li a:hover {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px; 
+    background: #A67600;
+    width: 150px;
+    border-radius: 25px;
+	display:inline;
+    
+}
+
+ul li a:active {
+    color: white;
+    border: 1px solid black;
+    padding: 10px 40px; 
+    background: #51A3B3;
+    width: 150px;
+    border-radius: 25px;
+    
+}
+form {
+                width:auto;
+                margin:auto;
+				display:inline;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+ul li a:link {
+    color: white;
+    border: 1px dotted black;
+    padding: 10px 40px; 
+    background: #162eae;
+    width: 150px;
+    border-radius: 45px;
+    text-decoration: none;
+
+}
+
+ul li a:visited {
+    color: white;
+    border: 1px dotted black;
+    padding: 10px 40px; 
+    background: #ffb600;
+    width: 150px;
+    border-radius: 25px;
+    
+}
+
+ul li a:hover {
+    color: black;
+    border: 1px dotted black;
+    padding: 10px 40px; 
+    background: #03859D;
+    width: 150px;
+    border-radius: 25px;
+	display:inline;
+	background-color: #A67600;
+  border-top: 1.5px solid #c0ffff ;
+  border-right: 1.5px solid #000000 ;
+  border-bottom: 1.5px solid #00f ;
+  border-left: 1.5px solid #c0ffff ;
+    
+}
+
+ul li a:active {
+    color: white;
+    border: 1px dotted black;
+    padding: 10px 40px; 
+    background: #51A3B3;
+    width: 150px;
+    border-radius: 25px;
+    
+}
+
+
+
+/*########################*/
+/*          footer        */
+/*########################*/
+/*Align the images to the center*/
+/*insert padding and marging*/
+/* the footer should have a background color */
+#wrapFooter {
+	text-align:center;
+	margin:2px;
+	padding:2px;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:25px;
+}
